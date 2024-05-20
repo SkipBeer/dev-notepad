@@ -1,0 +1,25 @@
+.course {
+    padding: 15px;
+    border-radius: 8px;
+    justify-content: space-between;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 50px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+    
+    transition: box-shadow 0.4s ease;
+    
+}
+
+.course:hover {
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.4);
+}
+.course__content {
+    word-break: break-all;
+
+}
+
+.course__description {
+    color: var(--grey);
+}

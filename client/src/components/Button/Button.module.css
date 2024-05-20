@@ -1,0 +1,16 @@
+.button {
+    display: flex;
+    padding: 5px 8px;
+    background: transparent;
+    border: 1px solid var(--grey);
+    border-radius: 4px;
+    color: var(--black);
+    font-size: 12px;
+    cursor: pointer;
+    transition: all .4s ease-in-out;
+}
+
+.button:hover {
+    background: rgba(0, 0, 0, 0.1);
+    color: var(--black);
+}

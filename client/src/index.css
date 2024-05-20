@@ -1,0 +1,27 @@
+:root {
+  --grey: #A9A9A9;
+  --cyan: #E0FFFF;
+  --white: #FFFFFF;
+  --black: #000000;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  height: 100vh;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  margin: 0;
+}
+
+input {
+  border: 1px solid var(--grey);
+  border-radius: 4px;
+  font-size: 13px;
+  padding: 4px 8px;
+}
+

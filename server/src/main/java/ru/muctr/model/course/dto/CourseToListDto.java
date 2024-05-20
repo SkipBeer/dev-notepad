@@ -1,0 +1,15 @@
+package ru.muctr.model.course.dto;
+
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
+public class CourseToListDto {
+
+    private long id;
+    private String title;
+    private String description;
+}

@@ -1,0 +1,25 @@
+.Navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 20px;
+    background: var(--grey);
+  }
+  
+.Navbar__links {
+    font-size: 16px;
+    display: flex;
+    gap: 10px;
+}
+  
+  
+.Navbar__links a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.Navbar__links a:hover {
+    color: var(--cyan);
+    transition: all .4s ease-in-out;
+}
